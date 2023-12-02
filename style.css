@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@600;700&family=Roboto:wght@100;300;400;500&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: rgb(0, 6, 6);
+    font-family: Roboto;
+    padding: 50px;
+    background: linear-gradient(to bottom right, rgb(63, 63, 146),#eb97a5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.iphone {
+    max-width: 800px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 30px 80px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: stretch ;
+    margin-left: 50px;
+    
+}
+
+.iphone_hero{
+    flex: 0 0 45%;
+}
+
+.iphone_img {
+    width: 300px;
+    height: 350px;
+    display: block;
+}
+
+.iphone_content{
+    flex: 2;
+    background: white;
+    padding: 30px 20px;
+}
+
+.iphone_price{
+    flex: 0 0 50px;
+    background: linear-gradient(to bottom , #4646b0,#eb97a5); 
+    writing-mode: vertical-rl;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+.iphone_title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.iphone_heading{
+    font-size: 20px;
+    flex: 1;
+}
+.iphone_tag{
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+    padding: 2px 7px;
+    border-radius: 100px;
+    margin-left: 7px;
+}
+.iphone_tag-1{
+    background: #4646b0 ;
+}
+.iphone_tag-2{
+    background: #eb97a5;
+}
+
+.iphone_description{
+    margin-top: 6px;
+    padding: 10px 5;
+    font-size: 15px;
+    
+}
+
+h4{
+    margin-bottom: 10px;
+
+}
